@@ -3,8 +3,3 @@ output "name" {
   description = "Contains the name of a random animal."
 }
 
-output "module_name" {
-  value       = ""${module.animal.name}""
-  description = "Contains the name of this module."
-}
-
